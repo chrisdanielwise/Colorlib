@@ -39,7 +39,6 @@
         right: 0;
         z-index: 999;
     }
-    
     .sub-nav1{
         max-width: 400px;
        
@@ -154,18 +153,35 @@
         color: #181818;
         margin-left: 13px;
     }
+    #menu{
+        height: 40px;
+        margin-block: auto;
+        margin-left: auto;
+        margin-right: 2%;
+    }
+    #menu img{
+        width: 50px;
+        height: 50px;
+        z-index: 2;
+    }
+    #menu #close{
+        display: none;
+        width: 50px;
+        height: 50px;
+        z-index: 2;
+    }
     .main-sub2{
         display: none;
-        width:60%;
+        position: absolute;
+        width:100%;
         justify-content: center;
         align-items: center;
-        height: 40px;
+        height: 70vh;
         color: #181818;
         font-size: 1rem;
         font-weight: 600;
-        margin-block: auto;
         transition: 300ms ease-in-out;
-        margin: auto;
+        border-radius: unset;
     }
     .main-sub2 li{
         margin: auto;
